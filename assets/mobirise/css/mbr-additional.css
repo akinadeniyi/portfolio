@@ -776,8 +776,6 @@ a {
 .cid-sipdzwg16v {
   z-index: 1000;
   width: 100%;
-  position: relative;
-  min-height: 60px;
 }
 .cid-sipdzwg16v nav.navbar {
   position: fixed;
@@ -843,7 +841,7 @@ a {
 }
 .cid-sipdzwg16v .dropdown-menu,
 .cid-sipdzwg16v .navbar.opened {
-  background: #ffffff !important;
+  background: #000000 !important;
 }
 .cid-sipdzwg16v .nav-item:focus,
 .cid-sipdzwg16v .nav-link:focus {
@@ -877,8 +875,8 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
 }
 .cid-sipdzwg16v .navbar.opened {
   transition: all 0.3s;
@@ -1023,7 +1021,7 @@ a {
   padding: 0.667em 1.667em;
 }
 .cid-sipdzwg16v .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #ffffff;
+  background: #000000;
 }
 .cid-sipdzwg16v .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
