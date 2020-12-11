@@ -1147,11 +1147,11 @@ a {
 .cid-sipm0luw1Y {
   padding-top: 7rem;
   padding-bottom: 0rem;
-  background-color: #ffffff;
+  background-image: url("../../../assets/images/opera-2000x1123.png");
 }
 .cid-sipm0luw1Y .mbr-text,
 .cid-sipm0luw1Y .mbr-section-btn {
-  color: #000000;
+  color: #ffffff;
   text-align: center;
 }
 .cid-sipm0luw1Y .mbr-section-btn {
@@ -1194,6 +1194,6 @@ a {
   color: #6592e6;
 }
 .cid-sipm0luw1Y .mbr-section-title {
-  color: #000000;
+  color: #ffffff;
   text-align: center;
 }
