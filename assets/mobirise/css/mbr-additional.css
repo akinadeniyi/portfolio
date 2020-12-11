@@ -713,30 +713,16 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-siTGPeqeDY {
-  background-color: #ffffff;
+.cid-siTWNyTunb {
+  background-image: url("../../../assets/images/akin-passport-1757x1757.jpg");
 }
-.cid-siTGPeqeDY .row {
-  flex-direction: row-reverse;
+.cid-siTWNyTunb .mbr-section-title {
+  color: #ffffff;
+  text-align: left;
 }
-@media (max-width: 991px) {
-  .cid-siTGPeqeDY .image-wrapper {
-    margin-bottom: 2rem;
-  }
-}
-.cid-siTGPeqeDY .image-wrapper img {
-  width: 100%;
-  object-fit: cover;
-}
-@media (min-width: 992px) {
-  .cid-siTGPeqeDY .text-wrapper {
-    padding: 0 2rem;
-  }
-}
-@media (max-width: 768px) {
-  .cid-siTGPeqeDY .text-wrapper {
-    margin-bottom: 2rem;
-  }
+.cid-siTWNyTunb .mbr-text,
+.cid-siTWNyTunb .mbr-section-btn {
+  color: #ffffff;
 }
 .cid-siTz6XSnYk {
   padding-top: 6rem;
