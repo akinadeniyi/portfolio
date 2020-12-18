@@ -1244,7 +1244,7 @@ a {
 }
 .cid-sipdzwg16v .dropdown-menu,
 .cid-sipdzwg16v .navbar.opened {
-  background: #000000 !important;
+  background: #ffffff !important;
 }
 .cid-sipdzwg16v .nav-item:focus,
 .cid-sipdzwg16v .nav-link:focus {
@@ -1279,7 +1279,7 @@ a {
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
   position: absolute;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.2);
 }
 .cid-sipdzwg16v .navbar.opened {
   transition: all 0.3s;
@@ -1424,7 +1424,7 @@ a {
   padding: 0.667em 1.667em;
 }
 .cid-sipdzwg16v .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #000000;
+  background: #ffffff;
 }
 .cid-sipdzwg16v .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
