@@ -1139,11 +1139,11 @@ a {
   color: #121212;
 }
 .cid-skgorUD0As .mbr-section-title {
-  color: #131419;
+  color: #000000;
 }
 .cid-skgt19lTip {
-  padding-top: 0rem;
-  padding-bottom: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
   background-color: #ffffff;
 }
 .cid-skgt19lTip .row {
@@ -1168,10 +1168,17 @@ a {
     margin-bottom: 2rem;
   }
 }
+.cid-skgt19lTip .mbr-section-title {
+  color: #000000;
+}
+.cid-skgt19lTip .mbr-text,
+.cid-skgt19lTip .mbr-section-btn {
+  color: #000000;
+}
 .cid-sipm0luw1Y {
   padding-top: 7rem;
   padding-bottom: 0rem;
-  background-color: #fafafa;
+  background-color: #eaeaea;
 }
 .cid-sipm0luw1Y .mbr-text,
 .cid-sipm0luw1Y .mbr-section-btn {
