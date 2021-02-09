@@ -81,7 +81,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 119,
+    "uniqCompNum": 121,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "publishChangesOnly": false
@@ -581,7 +581,7 @@
           },
           "_name": "features23",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"features22\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"8\">\n        <select title=\"Steps\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n            <option value=\"7\">7</option>\n            <option value=\"8\">8</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButton\">\n        <header>Step</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showCardTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showCardText\" checked>\n        <input type=\"range\" inline title=\"Number Size\" name=\"stepSize\" value=\"4\" min=\"1\" max=\"9.3\" step=\"0.1\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"card-wrapper\">\n            <div class=\"card-box align-left\">\n                <h4 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .card-box\"><b>What I Do.</b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Mobirise is a free offline app for Windows and Mac to easily create small/medium websites, landing\n                    pages, online resumes and portfolios. 2500+ beautiful website blocks, templates and themes help you\n                    to start easily.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" data-toolbar=\"-mbrBtnMove\" mbr-if=\"showButton\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Create your own\n                        site</a>\n                </div>\n            </div>\n        </div>\n        <!-- col-12 col-md-6 col-lg-4 -->\n        <div class=\"row justify-content-center content-row mt-4\">\n            <div class=\"card p-4 p-md-3\" mbr-class=\"{'col-md-6 col-lg-3':cardsAmount>='4',\n                            'col-md-6 col-lg-4':cardsAmount=='3',\n                            'col-md-6':cardsAmount<3}\">\n                <div class=\"card-box\" mbr-if=\"showCardTitle||showCardText\">\n                    <div class=\"title\">\n                        <span class=\"num mbr-fonts-style\" mbr-text data-app-selector=\".num\"><b>01.</b></span>\n                    </div>\n                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title, .card-img\">\n                        <b>Product &amp; UX Design</b></h4>\n                    <p class=\"mbr-text card-text mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\" data-app-selector=\".card-text\">\n                        Mobirise is perfect for non-techies who are not familiar with the intricacies of web\n                        development.\n                    </p>\n                </div>\n            </div>\n            <div class=\"card p-4 p-md-3\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-md-6 col-lg-3':cardsAmount>='4',\n                            'col-md-6 col-lg-4':cardsAmount=='3',\n                            'col-md-6':cardsAmount<3}\">\n                <div class=\"card-box\" mbr-if=\"showCardTitle||showCardText\">\n                    <div class=\"title\">\n                        <span class=\"num mbr-fonts-style\" mbr-text data-app-selector=\".num\"><b>02.</b></span>\n                    </div>\n                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title, .card-img\">\n                        <b>UX Research</b></h4>\n                    <p class=\"mbr-text card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\" data-app-selector=\".card-text\">\n                        Mobirise is perfect for non-techies who are not familiar with the intricacies of web\n                        development.\n                    </p>\n                </div>\n            </div>\n            <div class=\"card p-4 p-md-3\" mbr-if=\"cardsAmount>2\" mbr-class=\"{'col-md-6 col-lg-3':cardsAmount>='4',\n                            'col-md-6 col-lg-4':cardsAmount=='3',\n                            'col-md-6':cardsAmount<3}\">\n                <div class=\"card-box\" mbr-if=\"showCardTitle||showCardText\">\n                    <div class=\"title\">\n                        <span class=\"num mbr-fonts-style\" mbr-text data-app-selector=\".num\"><b>03.</b></span>\n                    </div>\n                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title, .card-img\">\n                        <b>No Code Developer</b></h4>\n                    <p class=\"mbr-text card-text mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\" data-app-selector=\".card-text\">\n                        Mobirise is perfect for non-techies who are not familiar with the intricacies of web\n                        development.\n                    </p>\n                </div>\n            </div>\n            <div class=\"card p-4 p-md-3\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-md-6 col-lg-3':cardsAmount>='4',\n                            'col-md-4':cardsAmount=='3',\n                            'col-md-6':cardsAmount<3}\">\n                <div class=\"card-box\" mbr-if=\"showCardTitle||showCardText\">\n                    <div class=\"title\">\n                        <span class=\"num mbr-fonts-style\" mbr-text data-app-selector=\".num\"><b>04.</b></span>\n                    </div>\n                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title, .card-img\">\n                        <b>Our Philosophy</b>\n                    </h4>\n                    <p class=\"mbr-text card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\" data-app-selector=\".card-text\">\n                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                    </p>\n                </div>\n            </div>\n            <div class=\"card p-4 p-md-3\" mbr-if=\"cardsAmount > 4\" mbr-class=\"{'col-md-6 col-lg-3':cardsAmount>='4',\n                            'col-md-6 col-lg-4':cardsAmount=='3',\n                            'col-md-6':cardsAmount==5}\">\n                <div class=\"card-box\" mbr-if=\"showCardTitle||showCardText\">\n                    <div class=\"title\">\n                        <span class=\"num mbr-fonts-style\" mbr-text data-app-selector=\".num\"><b>05.</b></span>\n                    </div>\n                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title, .card-img\">\n                        <b>Specification</b>\n                    </h4>\n                    <p class=\"mbr-text card-text mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\" data-app-selector=\".card-text\">\n                        Mobirise is perfect for non-techies who are not familiar with the intricacies of web\n                        development.\n                    </p>\n                </div>\n            </div>\n            <div class=\"card p-4 p-md-3\" mbr-if=\"cardsAmount > 5\" mbr-class=\"{'col-md-6 col-lg-3':cardsAmount>='4',\n                            'col-md-6 col-lg-4':cardsAmount=='3',\n                            'col-md-6':cardsAmount<3}\">\n                <div class=\"card-box\" mbr-if=\"showCardTitle||showCardText\">\n                    <div class=\"title\">\n                        <span class=\"num mbr-fonts-style\" mbr-text data-app-selector=\".num\"><b>06.</b></span>\n                    </div>\n                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title, .card-img\">\n                        <b>Project Planning</b>\n                    </h4>\n                    <p class=\"mbr-text card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\" data-app-selector=\".card-text\">\n                        Mobirise is perfect for non-techies who are not familiar with the intricacies of web\n                        development.\n                    </p>\n                </div>\n            </div>\n            <div class=\"card p-4 p-md-3\" mbr-if=\"cardsAmount>6\" mbr-class=\"{'col-md-6 col-lg-3':cardsAmount>='4',\n                            'col-md-6 col-lg-4':cardsAmount=='3',\n                            'col-md-6':cardsAmount<3}\">\n                <div class=\"card-box\" mbr-if=\"showCardTitle||showCardText\">\n                    <div class=\"title\">\n                        <span class=\"num mbr-fonts-style\" mbr-text data-app-selector=\".num\"><b>07.</b></span>\n                    </div>\n                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title, .card-img\">\n                        <b>Deployment</b>\n                    </h4>\n                    <p class=\"mbr-text card-text mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\" data-app-selector=\".card-text\">\n                        Mobirise is perfect for non-techies who are not familiar with the intricacies of web\n                        development.\n                    </p>\n                </div>\n            </div>\n            <div class=\"card p-4 p-md-3\" mbr-if=\"cardsAmount > 7\" mbr-class=\"{'col-md-6 col-lg-3':cardsAmount>='4',\n                            'col-md-4':cardsAmount=='3',\n                            'col-md-6':cardsAmount<3}\">\n                <div class=\"card-box\" mbr-if=\"showCardTitle||showCardText\">\n                    <div class=\"title\">\n                        <span class=\"num mbr-fonts-style\" mbr-text data-app-selector=\".num\"><b>08.</b></span>\n                    </div>\n                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title, .card-img\">\n                        <b>Our Philosophy</b>\n                    </h4>\n                    <p class=\"mbr-text card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\" data-app-selector=\".card-text\">\n                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                    </p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features22\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"8\">\n        <select title=\"Steps\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n            <option value=\"7\">7</option>\n            <option value=\"8\">8</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButton\">\n        <header>Step</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showCardTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showCardText\" checked>\n        <input type=\"range\" inline title=\"Number Size\" name=\"stepSize\" value=\"4\" min=\"1\" max=\"9.3\" step=\"0.1\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"card-wrapper\">\n            <div class=\"card-box align-left\">\n                <h4 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .card-box\"><b>My Expertise</b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Mobirise is a free offline app for Windows and Mac to easily create small/medium websites, landing\n                    pages, online resumes and portfolios. 2500+ beautiful website blocks, templates and themes help you\n                    to start easily.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" data-toolbar=\"-mbrBtnMove\" mbr-if=\"showButton\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Create your own\n                        site</a>\n                </div>\n            </div>\n        </div>\n        <!-- col-12 col-md-6 col-lg-4 -->\n        <div class=\"row justify-content-center content-row mt-4\">\n            <div class=\"card p-4 p-md-3\" mbr-class=\"{'col-md-6 col-lg-3':cardsAmount>='4',\n                            'col-md-6 col-lg-4':cardsAmount=='3',\n                            'col-md-6':cardsAmount<3}\">\n                <div class=\"card-box\" mbr-if=\"showCardTitle||showCardText\">\n                    <div class=\"title\">\n                        <span class=\"num mbr-fonts-style\" mbr-text data-app-selector=\".num\"><b>01.</b></span>\n                    </div>\n                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title, .card-img\">\n                        <b>Product &amp; UX Design</b></h4>\n                    <p class=\"mbr-text card-text mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\" data-app-selector=\".card-text\"></p>\n                </div>\n            </div>\n            <div class=\"card p-4 p-md-3\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-md-6 col-lg-3':cardsAmount>='4',\n                            'col-md-6 col-lg-4':cardsAmount=='3',\n                            'col-md-6':cardsAmount<3}\">\n                <div class=\"card-box\" mbr-if=\"showCardTitle||showCardText\">\n                    <div class=\"title\">\n                        <span class=\"num mbr-fonts-style\" mbr-text data-app-selector=\".num\"><b>02.</b></span>\n                    </div>\n                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title, .card-img\">\n                        <b>UX Research</b></h4>\n                    <p class=\"mbr-text card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\" data-app-selector=\".card-text\"></p>\n                </div>\n            </div>\n            <div class=\"card p-4 p-md-3\" mbr-if=\"cardsAmount>2\" mbr-class=\"{'col-md-6 col-lg-3':cardsAmount>='4',\n                            'col-md-6 col-lg-4':cardsAmount=='3',\n                            'col-md-6':cardsAmount<3}\">\n                <div class=\"card-box\" mbr-if=\"showCardTitle||showCardText\">\n                    <div class=\"title\">\n                        <span class=\"num mbr-fonts-style\" mbr-text data-app-selector=\".num\"><b>03.</b></span>\n                    </div>\n                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title, .card-img\">\n                        <b>No Code Developer</b></h4>\n                    <p class=\"mbr-text card-text mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\" data-app-selector=\".card-text\"></p>\n                </div>\n            </div>\n            <div class=\"card p-4 p-md-3\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-md-6 col-lg-3':cardsAmount>='4',\n                            'col-md-4':cardsAmount=='3',\n                            'col-md-6':cardsAmount<3}\">\n                <div class=\"card-box\" mbr-if=\"showCardTitle||showCardText\">\n                    <div class=\"title\">\n                        <span class=\"num mbr-fonts-style\" mbr-text data-app-selector=\".num\"><b>04.</b></span>\n                    </div>\n                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title, .card-img\">\n                        <b>Our Philosophy</b>\n                    </h4>\n                    <p class=\"mbr-text card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\" data-app-selector=\".card-text\">\n                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                    </p>\n                </div>\n            </div>\n            <div class=\"card p-4 p-md-3\" mbr-if=\"cardsAmount > 4\" mbr-class=\"{'col-md-6 col-lg-3':cardsAmount>='4',\n                            'col-md-6 col-lg-4':cardsAmount=='3',\n                            'col-md-6':cardsAmount==5}\">\n                <div class=\"card-box\" mbr-if=\"showCardTitle||showCardText\">\n                    <div class=\"title\">\n                        <span class=\"num mbr-fonts-style\" mbr-text data-app-selector=\".num\"><b>05.</b></span>\n                    </div>\n                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title, .card-img\">\n                        <b>Specification</b>\n                    </h4>\n                    <p class=\"mbr-text card-text mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\" data-app-selector=\".card-text\">\n                        Mobirise is perfect for non-techies who are not familiar with the intricacies of web\n                        development.\n                    </p>\n                </div>\n            </div>\n            <div class=\"card p-4 p-md-3\" mbr-if=\"cardsAmount > 5\" mbr-class=\"{'col-md-6 col-lg-3':cardsAmount>='4',\n                            'col-md-6 col-lg-4':cardsAmount=='3',\n                            'col-md-6':cardsAmount<3}\">\n                <div class=\"card-box\" mbr-if=\"showCardTitle||showCardText\">\n                    <div class=\"title\">\n                        <span class=\"num mbr-fonts-style\" mbr-text data-app-selector=\".num\"><b>06.</b></span>\n                    </div>\n                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title, .card-img\">\n                        <b>Project Planning</b>\n                    </h4>\n                    <p class=\"mbr-text card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\" data-app-selector=\".card-text\">\n                        Mobirise is perfect for non-techies who are not familiar with the intricacies of web\n                        development.\n                    </p>\n                </div>\n            </div>\n            <div class=\"card p-4 p-md-3\" mbr-if=\"cardsAmount>6\" mbr-class=\"{'col-md-6 col-lg-3':cardsAmount>='4',\n                            'col-md-6 col-lg-4':cardsAmount=='3',\n                            'col-md-6':cardsAmount<3}\">\n                <div class=\"card-box\" mbr-if=\"showCardTitle||showCardText\">\n                    <div class=\"title\">\n                        <span class=\"num mbr-fonts-style\" mbr-text data-app-selector=\".num\"><b>07.</b></span>\n                    </div>\n                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title, .card-img\">\n                        <b>Deployment</b>\n                    </h4>\n                    <p class=\"mbr-text card-text mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\" data-app-selector=\".card-text\">\n                        Mobirise is perfect for non-techies who are not familiar with the intricacies of web\n                        development.\n                    </p>\n                </div>\n            </div>\n            <div class=\"card p-4 p-md-3\" mbr-if=\"cardsAmount > 7\" mbr-class=\"{'col-md-6 col-lg-3':cardsAmount>='4',\n                            'col-md-4':cardsAmount=='3',\n                            'col-md-6':cardsAmount<3}\">\n                <div class=\"card-box\" mbr-if=\"showCardTitle||showCardText\">\n                    <div class=\"title\">\n                        <span class=\"num mbr-fonts-style\" mbr-text data-app-selector=\".num\"><b>08.</b></span>\n                    </div>\n                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title, .card-img\">\n                        <b>Our Philosophy</b>\n                    </h4>\n                    <p class=\"mbr-text card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\" data-app-selector=\".card-text\">\n                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                    </p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sovbOiUVFb",
           "_protectedParams": [],
           "_global": false,
@@ -590,105 +590,232 @@
           "_anchor": "features23-31"
         },
         {
-          "_name": "features02",
-          "_sourceTheme": "designerm4",
+          "alias": false,
           "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
             "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".container": {
-              "max-width": "1700px"
-            },
-            ".card-box": {
-              "z-index": "3",
-              "position": "relative",
-              "margin": "auto",
-              "opacity": "0",
-              "transform": "translateY(20px)",
-              "transition": "all 0.3s",
-              "&:focus-within": {
-                "opacity": "1"
-              }
-            },
-            ".row-center": {
-              "height": "100%"
-            },
-            ".card-img": {
-              "position": "absolute",
-              "top": "0",
-              "left": "0",
-              "width": "100%",
-              "height": "100%",
-              "transition": "all 0.3s",
-              "img": {
-                "object-fit": "cover",
-                "height": "100%",
-                "width": "100%"
-              }
-            },
-            ".card-wrapper": {
-              "display": "flex",
-              "position": "relative",
-              "margin": "auto",
-              "width": "100%",
-              "cursor": "pointer",
-              "height": "100%",
-              "padding": "14rem 1rem",
-              "&:before": {
-                "width": "100%",
-                "height": "100%",
-                "position": "absolute",
-                "top": "0",
-                "left": "0",
-                "content": "''",
-                "background": "black",
-                "opacity": "0",
-                "z-index": "2",
-                "pointer-events": "none",
-                "transition": "all 0.3s"
-              },
-              "transition": "all 1s",
-              "&:hover, &:focus-within": {
-                ".card-box": {
-                  "opacity": "1",
-                  "transform": "translateY(0px)"
-                },
-                ".card-img": {
-                  "transform": "scale(1.1)"
-                },
-                "&:before": {
-                  "opacity": "0.6"
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
                 }
               }
             },
-            ".row": {
-              "justify-content": "center"
-            },
-            ".card-title": {
-              "color": "#fafafa"
-            },
-            "@media (max-width: 992px)": {
-              ".card-box": {
-                "opacity": "1",
-                "transform": "translateY(0px)"
-              },
-              ".card-img": {
-                "transform": "scale(1.1)"
-              },
-              ".card-wrapper:before": {
-                "opacity": "0.6"
+            "img, .item-img": {
+              "width": "100%",
+              "& when (@autoSize)": {
+                "height": "100%",
+                "object-fit": "cover",
+                "& when (@showCardTitle)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showCardSubtitle)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showText)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showButtons)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                }
               }
+            },
+            ".item:focus, span:focus": {
+              "outline": "none"
+            },
+            ".item": {
+              "cursor": "pointer",
+              "margin-bottom": "2rem"
+            },
+            "& when not (@spacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding": "0",
+                "margin": "0"
+              }
+            },
+            ".item-wrapper": {
+              "position": "relative",
+              "border-radius": "4px",
+              "background": "@cardsBg",
+              "height": "100%",
+              "display": "flex",
+              "flex-flow": "column nowrap",
+              "@media (min-width: 992px)": {
+                "& when (@showButtons)": {
+                  ".item-content": {
+                    "padding": "2rem 2rem 0"
+                  },
+                  ".item-footer": {
+                    "padding": "0 2rem 2rem"
+                  }
+                },
+                "& when not (@showButtons)": {
+                  ".item-content": {
+                    "padding": "2rem"
+                  }
+                }
+              },
+              "@media (max-width: 991px)": {
+                "& when (@showButtons)": {
+                  ".item-content": {
+                    "padding": "1rem 1rem 0"
+                  },
+                  ".item-footer": {
+                    "padding": "0 1rem 1rem"
+                  }
+                },
+                "& when not (@showButtons)": {
+                  ".item-content": {
+                    "padding": "1rem"
+                  }
+                }
+              }
+            },
+            ".mbr-section-btn": {
+              "margin-top": "auto !important"
+            },
+            ".mbr-section-title": {
+              "color": "#232323",
+              "text-align": "left"
             }
           },
-          "_customHTML": "<section class=\"features2\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\" selected>5</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5-6.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\" mbr-cards=\"bootstrap\">\n\n            <div class=\"col-lg-4\" mbr-if=\"cardsAmount > 0\">\n                <div class=\"row\">\n                    <div class=\"card p-3 col-12\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-img\">\n                                <a href=\"https://akinadeniyi.medium.com/fidelity-bank-mobile-banking-app-redesign-ux-case-study-6595dae895b\"><img src=\"@PROJECT_PATH@/assets/images/iphone-11-pro-max-1-375x667.png\" alt></a>\n                            </div>\n                            <div class=\"card-box\">\n\n                                <h4 class=\"card-title align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">UX Research Case Study</h4>\n                                <p class=\"mbr-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>Fidelity Bank</b></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card p-3 col-12\" mbr-if=\"cardsAmount > 1\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-img\">\n                                <a href=\"assets/files/Gas-FirmFull.pdf\"><img src=\"@PROJECT_PATH@/assets/images/gas-firm-featured-750x1334.png\" alt></a>\n                            </div>\n                            <div class=\"card-box\">\n\n                                <h4 class=\"card-title align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                                    Website Design</h4>\n                                <p class=\"mbr-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>Landing Page</b></p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n\n            <div class=\"col-lg-4\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"row row-center\">\n\n                    <div class=\"card p-3 col-12\" mbr-if=\"cardsAmount > 2\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-img\">\n                                <a href=\"https://docs.google.com/document/d/19q2vAphTXmPn2A2ZT3E4tzD3fDUTkfbrs_1Ns0wceUo/edit?usp=sharing\"><img src=\"@PROJECT_PATH@/assets/images/iphone-8-2-750x1334.png\" alt></a>\n                            </div>\n                            <div class=\"card-box\">\n\n                                <h4 class=\"card-title align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">UX Research Case Study</h4>\n                                <p class=\"mbr-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>Art Design</b>\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n\n            <div class=\"col-lg-4\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"row\">\n                    <div class=\"card p-3 col-12\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-img\">\n                                <a href=\"https://docs.google.com/document/d/1sG0PhweAD4blXCWovQ-ma2cXAZSl232KejTnILIcps8/edit\"><img src=\"@PROJECT_PATH@/assets/images/iphone-8-3-750x1334.png\" alt></a>\n                            </div>\n                            <div class=\"card-box\">\n\n                                <h4 class=\"card-title align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">UX Case Study</h4>\n                                <p class=\"mbr-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>Migra</b></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card p-3 col-12\" mbr-if=\"cardsAmount > 4\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-img\">\n                                <img src=\"@PROJECT_PATH@/assets/images/iphone-8-5-750x1334.png\" alt>\n                            </div>\n                            <div class=\"card-box\">\n\n                                <h4 class=\"card-title align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Website Design</h4>\n                                <p class=\"mbr-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>Open Market</b></p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n\n\n\n\n        </div>\n    </div>\n</section>",
-          "_anchor": "features02-35",
+          "_name": "gallery1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"gallery1\" group=\"Sliders &amp; Galleries\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\" selected=\"\">2</option>\n            <option value=\"4\">3</option>\n            <option value=\"3\">4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked=\"\">\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n        <header>Cards</header>\n        <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\">\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"autoSize &amp;&amp; !(showButtons==false &amp;&amp; showCardSubtitle==false &amp;&amp; showCardTitle==false &amp;&amp; showText==false)\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked=\"\">\n        <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\">\n        <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\">\n        <input type=\"checkbox\" name=\"showText\" title=\"Text\">\n        <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\">\n        <input type=\"color\" name=\"cardsBg\" title=\"BG\" value=\"#fafafa\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required=\"\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>User Research Case Studies</b></h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                Gallery Subtitle</h5>\n        </div>\n        <div class=\"row mt-4\">\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"https://akinadeniyi.medium.com/fidelity-bank-mobile-banking-app-redesign-ux-case-study-6595dae895b\"><img src=\"@PROJECT_PATH@/assets/images/fidelity-bank-featured-image-1076x807.png\" alt=\"\"></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">\n                            <b>Card Title</b>\n                        </h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                            Card Text. You don't have to code to create a site. Select one of available themes in the\n                            Mobirise Site Builder.\n                        </p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons=\"\" mbr-theme-style=\"display-7\"><a href=\"\" class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn\n                            more</a></div>\n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"https://docs.google.com/document/d/19q2vAphTXmPn2A2ZT3E4tzD3fDUTkfbrs_1Ns0wceUo/edit?usp=sharing\"><img src=\"@PROJECT_PATH@/assets/images/terapia-1076x807.png\" alt=\"\"></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">\n                            <b>Card Title</b>\n                        </h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Card Text. You don't have to code to create\n                            a site. Select one of available themes in the Mobirise Site Builder.</p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons=\"\" mbr-theme-style=\"display-7\"><a href=\"\" class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn\n                            more</a></div>\n                </div>\n            </div>\n            \n            \n        </div>\n    </div>\n</section>",
+          "_anchor": "gallery1-3b",
           "_isUserblock": true,
-          "_cid": "sow1gRBUjt",
+          "_cid": "sowne4WHdU",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
+                }
+              }
+            },
+            "img, .item-img": {
+              "width": "100%",
+              "& when (@autoSize)": {
+                "height": "100%",
+                "object-fit": "cover",
+                "& when (@showCardTitle)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showCardSubtitle)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showText)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showButtons)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                }
+              }
+            },
+            ".item:focus, span:focus": {
+              "outline": "none"
+            },
+            ".item": {
+              "cursor": "pointer",
+              "margin-bottom": "2rem"
+            },
+            "& when not (@spacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding": "0",
+                "margin": "0"
+              }
+            },
+            ".item-wrapper": {
+              "position": "relative",
+              "border-radius": "4px",
+              "background": "@cardsBg",
+              "height": "100%",
+              "display": "flex",
+              "flex-flow": "column nowrap",
+              "@media (min-width: 992px)": {
+                "& when (@showButtons)": {
+                  ".item-content": {
+                    "padding": "2rem 2rem 0"
+                  },
+                  ".item-footer": {
+                    "padding": "0 2rem 2rem"
+                  }
+                },
+                "& when not (@showButtons)": {
+                  ".item-content": {
+                    "padding": "2rem"
+                  }
+                }
+              },
+              "@media (max-width: 991px)": {
+                "& when (@showButtons)": {
+                  ".item-content": {
+                    "padding": "1rem 1rem 0"
+                  },
+                  ".item-footer": {
+                    "padding": "0 1rem 1rem"
+                  }
+                },
+                "& when not (@showButtons)": {
+                  ".item-content": {
+                    "padding": "1rem"
+                  }
+                }
+              }
+            },
+            ".mbr-section-btn": {
+              "margin-top": "auto !important"
+            },
+            ".mbr-section-title": {
+              "color": "#232323",
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "left",
+              "color": "#e43f3f"
+            }
+          },
+          "_name": "gallery1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"gallery1\" group=\"Sliders & Galleries\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\" selected>2</option>\n            <option value=\"4\">3</option>\n            <option value=\"3\">4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n        <header>Cards</header>\n        <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\">\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\">\n        <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\">\n        <input type=\"checkbox\" name=\"showText\" title=\"Text\">\n        <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\">\n        <input type=\"color\" name=\"cardsBg\" title=\"BG\" value=\"#fafafa\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>User Interface Designs</b></h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"></h5>\n        </div>\n        <div class=\"row mt-4\">\n            \n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"assets/files/Gas-FirmFull.pdf\"><img src=\"@PROJECT_PATH@/assets/images/gas-firm-800x600.png\" alt></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">\n                            <b>Card Title</b>\n                        </h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Card Text. You don't have to code to create\n                            a site. Select one of available themes in the Mobirise Site Builder.</p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn\n                            more</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"assets/files/Blackcopper-FeaturedImage-min.pdf\"><img src=\"@PROJECT_PATH@/assets/images/blackcopper-featured-image-1600x1200.png\" alt></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">\n                            <b>Card Title</b>\n                        </h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Card Text. You don't have to code to create\n                            a site. Select one of available themes in the Mobirise Site Builder.</p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn\n                            more</a></div>\n                </div>\n            </div>\n            \n            \n        </div>\n    </div>\n</section>",
+          "_anchor": "gallery1-3c",
+          "_isUserblock": true,
+          "_cid": "sowniVzPpa",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
