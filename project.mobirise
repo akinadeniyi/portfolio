@@ -13,9 +13,9 @@
         "warningColor": "#FFE161",
         "dangerColor": "#ff9966",
         "mainFont": "Jost",
-        "display1Font": "Avenir-Black",
+        "display1Font": "Average Sans",
         "display1Size": "4.2",
-        "display2Font": "Avenir-Black",
+        "display2Font": "Average Sans",
         "display2Size": 3,
         "display5Font": "Avenir-Book",
         "display5Size": 2,
@@ -70,6 +70,11 @@
         "name": "Avenir-Book",
         "url": null,
         "file": "@PROJECT_PATH@/fonts/Avenir-Book/font.ttf"
+      },
+      {
+        "css": "'Average Sans', sans-serif",
+        "name": "Average Sans",
+        "url": "https://fonts.googleapis.com/css?family=Average+Sans:400"
       }
     ],
     "imageResize": true,

@@ -1,9 +1,4 @@
 @font-face {
-   font-family: 'Avenir-Black';
-   font-display: swap;
-   src: url('Avenir-Black/font.ttf');
-}
-@font-face {
    font-family: 'Avenir-Book';
    font-display: swap;
    src: url('Avenir-Book/font.ttf');
