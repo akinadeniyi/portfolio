@@ -1077,41 +1077,8 @@ a {
 .cid-siTXCajbCT .mbr-section-btn {
   color: #ffffff;
 }
-.cid-soVhwcxZjN {
-  padding-top: 4rem;
-  padding-bottom: 0rem;
-  background-color: #ffffff;
-}
-.cid-soVhwcxZjN .item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 2rem;
-}
-.cid-soVhwcxZjN .icon-box {
-  background: #6592e6;
-  width: 60px;
-  min-width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  margin-right: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.cid-soVhwcxZjN .mbr-iconfont {
-  font-size: 2rem;
-  color: #ffffff;
-}
-@media (max-width: 991px) {
-  .cid-soVhwcxZjN .card {
-    margin-bottom: 2rem;
-  }
-  .cid-soVhwcxZjN .card-wrapper {
-    margin-bottom: 2rem;
-  }
-}
 .cid-sowne4WHdU {
-  padding-top: 3rem;
+  padding-top: 6rem;
   padding-bottom: 0rem;
   background-color: #ffffff;
 }
@@ -1153,7 +1120,7 @@ a {
   text-align: left;
 }
 .cid-sowniVzPpa {
-  padding-top: 4rem;
+  padding-top: 6rem;
   padding-bottom: 5rem;
   background-color: #ffffff;
 }
