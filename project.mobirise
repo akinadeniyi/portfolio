@@ -13,15 +13,15 @@
         "warningColor": "#FFE161",
         "dangerColor": "#ff9966",
         "mainFont": "Jost",
-        "display1Font": "Montserrat",
+        "display1Font": "Mulish",
         "display1Size": "4.2",
-        "display2Font": "Montserrat",
+        "display2Font": "Mulish",
         "display2Size": 3,
-        "display5Font": "Montserrat",
+        "display5Font": "Mulish",
         "display5Size": 2,
-        "display7Font": "Montserrat",
+        "display7Font": "Mulish",
         "display7Size": 1.2,
-        "display4Font": "Montserrat",
+        "display4Font": "Mulish",
         "display4Size": 1.1,
         "isRoundedButtons": true,
         "isGhostButtonBorder": true,
@@ -52,14 +52,24 @@
         "file": "@PROJECT_PATH@/fonts/Avenir-Book/font.ttf"
       },
       {
-        "css": "'Average Sans', sans-serif",
-        "name": "Average Sans",
-        "url": "https://fonts.googleapis.com/css?family=Average+Sans:400"
-      },
-      {
         "css": "'Montserrat', sans-serif",
         "name": "Montserrat",
         "url": "https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      },
+      {
+        "css": "'Ubuntu', sans-serif",
+        "name": "Ubuntu",
+        "url": "https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i"
+      },
+      {
+        "css": "'Inter', sans-serif",
+        "name": "Inter",
+        "url": "https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900"
+      },
+      {
+        "css": "'Mulish', sans-serif",
+        "name": "Mulish",
+        "url": "https://fonts.googleapis.com/css?family=Mulish:200,300,400,500,600,700,800,900,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
     "imageResize": true,
@@ -71,7 +81,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 157,
+    "uniqCompNum": 161,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "publishChangesOnly": false
@@ -763,73 +773,57 @@
           "_params": {}
         },
         {
-          "_name": "header02",
-          "_sourceTheme": "designerm4",
+          "_name": "contact1",
+          "_sourceTheme": "conferencem4",
           "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "color": "#000000",
-              "text-align": "center"
+            ".mbr-text": {
+              "margin-bottom": "20px"
             },
             ".mbr-section-btn": {
-              "padding-bottom": "8rem"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#ffffff",
-              "text-align": "center"
-            },
-            ".mbr-iconfont": {
-              "color": "@iconsColor",
-              "font-size": "1.2rem",
-              "transition": "all 0.3s"
-            },
-            ".icons-wrapper": {
-              "position": "absolute",
-              "display": "flex",
-              "bottom": "4rem",
-              "width": "fit-content",
-              "left": "4rem",
-              "@media (max-width: 767px)": {
-                "right": "50%",
-                "left": "50%",
-                "transform": "translateX(-50%)"
-              }
-            },
-            ".icon-wrapper": {
-              "position": "relative",
-              "width": "35px",
-              "cursor": "pointer",
-              "margin": "0 0.2rem",
-              "display": "flex",
-              "justify-content": "center",
-              "align-items": "center",
-              "height": "35px",
-              "&:hover": {
+              ".btn": {
+                "&:hover": {
+                  "background-color": "@primaryColor !important",
+                  "border-color": "@primaryColor !important"
+                },
                 ".mbr-iconfont": {
-                  "color": "@primaryColor"
+                  "font-size": "15px"
                 }
               }
             },
-            ".mbr-section-title": {
-              "color": "#000000",
-              "text-align": "center"
+            ".divider": {
+              "background-color": "@borderColor",
+              "width": "100%",
+              "height": "1px",
+              "margin": "20px 0",
+              "opacity": ".6"
+            },
+            ".contact__wrap": {
+              "padding-bottom": "40px",
+              "&:last-child": {
+                "padding-bottom": "0"
+              }
+            },
+            ".contact__title, .contact__text": {
+              "margin-bottom": "0"
+            },
+            "@media (max-width: 767px)": {
+              ".contact__wrap, .title__block": {
+                "padding-bottom": "30px"
+              }
             }
           },
-          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"7\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Icons\" name=\"iconsCount\" min=\"1\" max=\"5\" step=\"1\" value=\"1\">\n        <header>Color</header>\n        <input type=\"color\" name=\"iconsColor\" title=\"Icons\" value=\"#ffffff\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/opera-2000x1123.png\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#eaeaea\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-12 col-lg-10\">\n                <h2 class=\"mbr-section-subtitle align-left mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showSubitle\"></h2>\n                <h1 class=\"mbr-section-title align-left mbr-fonts-style mb-5\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">I'm happy to talk, so do reach out if you would like to inquire about a new project, speaking engagement, chat about design or just to say a friendly hello. You can do this via email:</h1>\n                <p class=\"mbr-text align-left mbr-fonts-style pb-5\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">akinadeniyi.a@gmail.com</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-left mbr-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-lg btn-primary\" href=\"mailto:akinadeniyi.a@gmail.com\" data-app-placeholder=\"Type Text\">Get In Touch</a></div>\n            </div>\n        </div>\n    </div>\n<!--     <div class=\"icons-wrapper\">\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 0\">\n            <a href=\"https://www.linkedin.com/in/akinade-akinadeniyi-10757417a/\"><span mbr-icon class=\"mbr-iconfont fa-linkedin-square fa\"></span></a>\n        </div>\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 1\">\n            <a href=\"https://twitter.com/akinadeniyi_a\"><span mbr-icon class=\"mbr-iconfont socicon-twitter socicon\"></span></a>\n        </div>\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 2\">\n            <span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\"></span>\n        </div>\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 3\">\n            <span mbr-icon class=\"mbr-iconfont socicon-twitter socicon\"></span>\n        </div>\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 4\">\n            <span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\"></span>\n        </div>\n    </div> -->\n</section>",
-          "_JSplaceholders": [],
-          "_PHPplaceholders": [],
-          "_anchor": "header02-c",
+          "_customHTML": "<section class=\"contact1\" group=\"Contacts\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Left/Right Content\" name=\"reverse\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#ffffff\" condition=\"showSubtitle\">\n        <hr>\n        <input type=\"range\" inline title=\"Contacts Count\" name=\"countContact\" min=\"0\" max=\"3\" step=\"1\" value=\"2\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/conference14-1.jpg\" parallax>\n            <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#191f23\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverse}\">\n            <div class=\"col-lg-4 col-md-5 col-sm-12 title__block text-white\">\n                <h3 class=\"mbr-section-subtitle mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">CONTACTS</h3>\n                <div class=\"divider\" mbr-if=\"showSubtitle\"></div>\n                <h2 class=\"mbr-section-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .mbr-section-btn\">\nGet in Touch<br>with Me</h2>\n                <p class=\"mbr-text mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Neque distinctio sint modi asperiores placeat quam ab, labore ea?</p>\n                <div class=\"mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\"><a class=\"btn btn-secondary\" href=\"#\" data-app-placeholder=\"Type Text\">Read More<span class=\"fa-long-arrow-right fa mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n            </div>\n            <div class=\"col-lg-5 col-md-2\"></div>\n          <div class=\"col-lg-3 col-md-5 col-sm-12 text-white contact__block\" mbr-list mbr-list-grow=\"countContact\" mbr-if=\"countContact > 0\">\n              <div class=\"contact__wrap\">\n                    <p class=\"contact__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".contact__title\">LAGOS</p>\n                    <p class=\"contact__text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".contact__text\">Akinade Akinadeniyi<br>akinadeniyi.a@gmail.com<br>+2348094337237</p>\n              </div>\n              <div class=\"contact__wrap\">\n                    <p class=\"contact__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".contact__title\"></p>\n                    <p class=\"contact__text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".contact__text\"><br><br></p>\n              </div>\n            </div>  \n        </div>\n            \n    </div>\n</section>",
+          "_anchor": "contact1-4g",
           "_isUserblock": true,
-          "_cid": "sipm0luw1Y",
+          "_cid": "sprtiowZIe",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
