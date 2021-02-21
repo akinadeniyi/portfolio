@@ -1168,53 +1168,58 @@ a {
   text-align: left;
   color: #e43f3f;
 }
-.cid-sprtiowZIe {
-  padding-top: 4rem;
+.cid-spFRkdl93z {
+  padding-top: 7rem;
   padding-bottom: 0rem;
-  background-color: #fafafa;
+  background-color: #eaeaea;
 }
-.cid-sprtiowZIe .mbr-text {
-  margin-bottom: 20px;
+.cid-spFRkdl93z .mbr-text,
+.cid-spFRkdl93z .mbr-section-btn {
+  color: #000000;
+  text-align: center;
 }
-.cid-sprtiowZIe .mbr-section-btn .btn:hover {
-  background-color: #6592e6 !important;
-  border-color: #6592e6 !important;
+.cid-spFRkdl93z .mbr-section-btn {
+  padding-bottom: 8rem;
 }
-.cid-sprtiowZIe .mbr-section-btn .btn .mbr-iconfont {
-  font-size: 15px;
+.cid-spFRkdl93z .mbr-section-subtitle {
+  color: #ffffff;
+  text-align: center;
 }
-.cid-sprtiowZIe .divider {
-  background-color: #ffffff;
-  width: 100%;
-  height: 1px;
-  margin: 20px 0;
-  opacity: .6;
+.cid-spFRkdl93z .mbr-iconfont {
+  color: #ffffff;
+  font-size: 1.2rem;
+  transition: all 0.3s;
 }
-.cid-sprtiowZIe .contact__wrap {
-  padding-bottom: 40px;
-}
-.cid-sprtiowZIe .contact__wrap:last-child {
-  padding-bottom: 0;
-}
-.cid-sprtiowZIe .contact__title,
-.cid-sprtiowZIe .contact__text {
-  margin-bottom: 0;
+.cid-spFRkdl93z .icons-wrapper {
+  position: absolute;
+  display: flex;
+  bottom: 4rem;
+  width: fit-content;
+  left: 4rem;
 }
 @media (max-width: 767px) {
-  .cid-sprtiowZIe .contact__wrap,
-  .cid-sprtiowZIe .title__block {
-    padding-bottom: 30px;
+  .cid-spFRkdl93z .icons-wrapper {
+    right: 50%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
-.cid-sprtiowZIe .mbr-section-title,
-.cid-sprtiowZIe .mbr-section-btn {
-  color: #000000;
+.cid-spFRkdl93z .icon-wrapper {
+  position: relative;
+  width: 35px;
+  cursor: pointer;
+  margin: 0 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
 }
-.cid-sprtiowZIe .contact__text {
-  color: #000000;
+.cid-spFRkdl93z .icon-wrapper:hover .mbr-iconfont {
+  color: #6592e6;
 }
-.cid-sprtiowZIe .contact__title {
+.cid-spFRkdl93z .mbr-section-title {
   color: #000000;
+  text-align: center;
 }
 .cid-sjIBMiLjlU {
   z-index: 1000;
