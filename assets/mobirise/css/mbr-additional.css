@@ -37,11 +37,11 @@ body {
 }
 .display-5 {
   font-family: 'Poppins', sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 1.5;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
 }
 .display-7 {
   font-family: 'Bitter', serif;
@@ -78,9 +78,9 @@ body {
     line-height: calc( 1.4 * (1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.6rem;
-    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.44rem;
+    font-size: calc( 1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
     font-size: 0.96rem;
@@ -1071,10 +1071,12 @@ a {
 }
 .cid-siTXCajbCT .mbr-section-title {
   color: #000000;
+  text-align: left;
 }
 .cid-siTXCajbCT .mbr-text,
 .cid-siTXCajbCT .mbr-section-btn {
   color: #000000;
+  text-align: left;
 }
 .cid-sowniVzPpa {
   padding-top: 6rem;
@@ -2751,7 +2753,7 @@ a {
   }
 }
 .cid-soVmUtazTT {
-  padding-top: 6rem;
+  padding-top: 10rem;
   padding-bottom: 6rem;
   background-color: #ffffff;
 }
@@ -2781,6 +2783,11 @@ a {
 }
 .cid-soVmUVwd9v img {
   width: 100%;
+}
+.cid-stT39RIaQr {
+  padding-top: 0rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
 }
 .cid-soVszKnLh5 {
   padding-top: 7rem;
