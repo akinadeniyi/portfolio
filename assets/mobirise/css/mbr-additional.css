@@ -1166,23 +1166,23 @@ a {
   color: #232323;
   text-align: left;
 }
-.cid-sydqOLcpYr {
+.cid-sydvqfqOgO {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #eaeaea;
 }
-.cid-sydqOLcpYr .image-wrapper img {
+.cid-sydvqfqOgO .image-wrapper img {
   width: 100%;
   object-fit: cover;
 }
-.cid-sydqOLcpYr .card-title {
+.cid-sydvqfqOgO .card-title {
   margin-bottom: 26px;
   color: #ff6666;
 }
-.cid-sydqOLcpYr .mbr-text {
+.cid-sydvqfqOgO .mbr-text {
   margin-bottom: 30px;
 }
-.cid-sydqOLcpYr .iconfont-wrapper {
+.cid-sydvqfqOgO .iconfont-wrapper {
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -1194,54 +1194,54 @@ a {
   box-shadow: 0px 14px 30px 0px rgba(107, 61, 240, 0.4);
   background-image: linear-gradient(40deg, #6b3df0 0%, #b39cf7 100%);
 }
-.cid-sydqOLcpYr .iconfont-wrapper .mbr-iconfont {
+.cid-sydvqfqOgO .iconfont-wrapper .mbr-iconfont {
   color: #ffffff;
   font-size: 42px;
   line-height: 80px;
 }
-.cid-sydqOLcpYr .btn_link {
+.cid-sydvqfqOgO .btn_link {
   display: block;
   margin-bottom: 0;
   position: relative;
   font-weight: 700;
 }
-.cid-sydqOLcpYr .btn_link span {
+.cid-sydvqfqOgO .btn_link span {
   display: inline-block;
   margin-left: .25rem;
   font-size: 16px;
   vertical-align: middle;
   transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-.cid-sydqOLcpYr .btn_link:hover {
+.cid-sydvqfqOgO .btn_link:hover {
   cursor: pointer;
 }
-.cid-sydqOLcpYr .btn_link:hover a {
+.cid-sydvqfqOgO .btn_link:hover a {
   color: #6592e6 !important;
 }
-.cid-sydqOLcpYr .btn_link:hover span {
+.cid-sydvqfqOgO .btn_link:hover span {
   transform: translatex(5px);
 }
 @media (min-width: 992px) {
-  .cid-sydqOLcpYr .text-wrapper {
+  .cid-sydvqfqOgO .text-wrapper {
     padding-right: 2rem;
   }
 }
 @media (max-width: 991px) {
-  .cid-sydqOLcpYr .text-wrapper {
+  .cid-sydvqfqOgO .text-wrapper {
     text-align: center;
   }
-  .cid-sydqOLcpYr .image-wrapper {
+  .cid-sydvqfqOgO .image-wrapper {
     margin-bottom: 40px;
   }
-  .cid-sydqOLcpYr .mbr-text {
+  .cid-sydvqfqOgO .mbr-text {
     margin-bottom: 20px;
   }
-  .cid-sydqOLcpYr .iconfont-wrapper {
+  .cid-sydvqfqOgO .iconfont-wrapper {
     margin-bottom: 20px;
   }
 }
-.cid-sydqOLcpYr .card-title,
-.cid-sydqOLcpYr .icon_block {
+.cid-sydvqfqOgO .card-title,
+.cid-sydvqfqOgO .icon_block {
   color: #000000;
 }
 .cid-spFRkdl93z {
