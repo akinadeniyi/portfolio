@@ -61,7 +61,7 @@
       }
     ],
     "imageResize": true,
-    "favicon": "@PROJECT_PATH@/assets/images/akin-logo-128x128-1.png",
+    "favicon": "@PROJECT_PATH@/assets/images/akin-logo-128x128_1.png",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -70,7 +70,7 @@
     "gdpr": false,
     "pwa-switcher": false,
     "uniqCompNum": 179,
-    "versionPublish": "5.2.0",
+    "versionPublish": "5.3.10",
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
     "chatbutton": {}
